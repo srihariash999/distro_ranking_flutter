@@ -1,0 +1,42 @@
+name: distro_ranking
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  html: ^0.13.3+3
+  http: ^0.12.0
+  url_launcher: ^5.2.7
+  expandable: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  fonts:
+        
+     - family: Solway
+       fonts:
+         - asset: fonts/Solway-Medium.ttf
+
+     - family: Calistoga
+       fonts:
+         - asset: fonts/Calistoga-Regular.ttf
+
+     - family: JosefinSans
+       fonts:
+         - asset: fonts/JosefinSans-Regular.ttf
