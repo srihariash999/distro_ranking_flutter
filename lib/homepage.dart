@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
                                   collapsed: CardLayout(
                                     position: position,
                                     data: data,
-                                    context: context,
+                                    context: contu,
                                   ),
                                   expanded: Container(
                                     decoration: BoxDecoration(
@@ -100,8 +100,8 @@ class _HomePageState extends State<HomePage> {
                                                       "pressed info on # $position");
                                                      
                                                   showDialog(
-                                                      context: context,
-                                                      builder: (context) {
+                                                      context: contu,
+                                                      builder: (contu) {
                                                         return AlertDialog(
                                                           title: Text(
                                                             data[0][position]["title"],
@@ -119,9 +119,7 @@ class _HomePageState extends State<HomePage> {
                                                                     Center(child: CircularProgressIndicator(),);
                                                                        
                                                                     }
-                                                                      
-                                                                   
-                                                                    
+
                                                                     else
                                                                     return ListView(
                                                                         children: <Widget>[
